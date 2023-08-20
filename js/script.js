@@ -44,6 +44,5 @@ document.addEventListener("DOMContentLoaded", (e) => {
   }
 
   let result = strangeArray.filter(esString);
-  console.log(result);
   showList(result.sort());
 });
